@@ -13,7 +13,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; load my personal settings from ylw-conig                ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(setq base-load-path "~/apps/emacslib/")
+(setq base-load-path "~/jconfig/emacslib/")
 
 (add-to-list 'load-path (concat base-load-path "cj-config"))
 (require 'window-number)

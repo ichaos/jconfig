@@ -227,7 +227,8 @@ Prompt user input window number if have more windows."
 (unless window-number-mode-map
   (setq window-number-mode-map (make-sparse-keymap))
                                         ; space after C-j is important
-  (window-number-define-keys window-number-mode-map "C-x C-j "))
+					; make it shorter :)
+  (window-number-define-keys window-number-mode-map "C-x j "))
 
                                         ; define M-1 to switch to win 1, etc (M-0 = win 10)
 (unless window-number-meta-mode-map
